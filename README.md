@@ -35,16 +35,14 @@ echo \
   "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-
 sudo groupadd docker
 sudo systemctl daemon-reexec
-sudo systemctl restart docker
 sudo usermod -aG docker $USER
+
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 # Test Docker
 sudo docker run hello-world
-
 sudo systemctl enable docker
 sudo systemctl restart docker
 ```
