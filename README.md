@@ -4,7 +4,7 @@ A step by step guide on How to Run `Sequencer Node` on Aztec Network Testnet & E
 ## Roles Info
 Sequecner Nodes will receive a certain role for their contribution on Discord.
 
-After running and syncing your Sequencer node, You can go through [Get Role](https://github.com/OneEyeKing001/aztec/edit/main/README.md#get-apprentice-discord-role) step.
+After running and syncing your Sequencer node, You can go through [Get Role](https://github.com/OneEyeKing001/aztec?tab=readme-ov-file#get-apprentice-discord-role) step.
 
 ---
 
@@ -178,7 +178,7 @@ aztec-up alpha-testnet
 
 * 3- Re-run Node
 
-Return to [Step 9: Run Sequencer Node](https://github.com/OneEyeKing001/aztec/edit/main/README.md#9-run-sequencer-node) to re-run your node
+Return to [Step 9: Run Sequencer Node](https://github.com/OneEyeKing001/aztec?tab=readme-ov-file#9-run-sequencer-node) to re-run your node
 
 ---
 
@@ -207,8 +207,8 @@ http://localhost:8080 | jq -r ".result"
 * Type the following command in this Discord server: `/operator start`
 * After typing the command, Discord will display option fields that look like this:
 * `address`:            Your validator address (Ethereum Address)
-* `block-number`:      Block number for verification (Block number from [Step 1](https://github.com/OneEyeKing001/aztec/edit/main/README.md#1-install-dependecies))
-* `proof`:             Your sync proof (base64 string from [Step 2](https://github.com/OneEyeKing001/aztec/edit/main/README.md#2-install-aztec-tools))
+* `block-number`:      Block number for verification (Block number from [Step 1](https://github.com/OneEyeKing001/aztec?tab=readme-ov-file#1-install-dependecies))
+* `proof`:             Your sync proof (base64 string from [Step 2](https://github.com/OneEyeKing001/aztec?tab=readme-ov-file#2-install-aztec-tools))
 
 Then you'll get your `Apprentice` Role.
 
@@ -222,6 +222,6 @@ Go to the discord channel :[operators| start-here](https://discord.com/channels/
 
 Then you'll get your `Guardian` Role
 
-* `IP`:                      Vps Ip you get in [Step 7](https://github.com/OneEyeKing001/aztec/edit/main/README.md#7-find-ip)
+* `IP`:                      Vps Ip you get in [Step 7](https://github.com/OneEyeKing001/aztec?tab=readme-ov-file#7-find-ip)
 
-* `node_eth_address `:       ETH Public address you generated in [Step 5](https://github.com/OneEyeKing001/aztec/edit/main/README.md#5-generate-ethereum-keys)
+* `node_eth_address `:       ETH Public address you generated in [Step 5](https://github.com/OneEyeKing001/aztec?tab=readme-ov-file#5-generate-ethereum-keys)
