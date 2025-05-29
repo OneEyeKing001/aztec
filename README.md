@@ -162,6 +162,17 @@ sudo docker logs $(docker ps -q --filter ancestor=aztecprotocol/aztec:alpha-test
 
 ---
 
+## 12. Save P2P Private Key :
+**Find your Node's P2P private key:**
+```bash
+nano .aztec/alpha-testnet/data/p2p-private-key
+```
+* This reveals your Node's P2P Private key, Save it for future use.
+* You can use it to re-run your node on another vps with same Peer ID.
+---
+
+
+
 ## 🔃 Update Sequencer Node
 * 1- Stop Node:
 ```console
