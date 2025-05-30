@@ -35,6 +35,9 @@ echo \
   "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
+apt install docker.io
+apt install docker-compose-plugin 
+
 sudo groupadd docker
 sudo systemctl daemon-reexec
 sudo usermod -aG docker $USER
