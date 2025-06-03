@@ -65,7 +65,7 @@ aztec
 
 ## 3. Update Aztec
 ```bash
-aztec-up  0.87.2
+aztec-up alpha-testnet
 ```
 
 ---
