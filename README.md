@@ -65,7 +65,7 @@ aztec
 
 ## 3. Update Aztec
 ```bash
-aztec-up alpha-testnet
+aztec-up latest
 ```
 
 ---
@@ -179,7 +179,7 @@ Ctrl + c
 
 * 2- Update Node:
 ```bash
-aztec-up alpha-testnet
+aztec-up latest
 ```
 
 
